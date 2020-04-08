@@ -1,0 +1,20 @@
+---
+title: "HW week 12"
+subtitle: "w203: Statistics for Data Science"
+author: "w203 teaching team"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# OLS Inference
+
+The file videos.txt contains data scraped from Youtube.com.  You wish to measure how much the quality of a video affects the number of views.  To proxy video quality, you have the variable *rate* which represents average user rating.  For the number of views, you have the variable *views*.
+
+1. Using diagnostic plots and numerical tools, build a *single* model specification for this task.
+
+2. Explain your result in terms of statistical and practical significance.
+
+3. Identify 3 omitted variables and estimate whether they are biasing the effect you measure towards zero or away from zero.
